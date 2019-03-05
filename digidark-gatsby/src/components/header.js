@@ -33,8 +33,8 @@ const Header = ({ siteTitle, menuLinks }) => (
             textDecoration: `none`,
           }}
         >
-          {/* {siteTitle} */}
-          <img src = {digilogo} width="200px"/>
+           {siteTitle}
+          {/* <img src = {digilogo} width="200px"/> */}
         </Link>
       </h4>
      

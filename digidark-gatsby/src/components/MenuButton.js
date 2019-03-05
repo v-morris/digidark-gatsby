@@ -10,7 +10,7 @@ class MenuButton extends Component {
         cursor:`pointer`
     }
     return (
-      <h6 style = {style} onClick={this.props.handleMouseDown}>menu</h6>
+      <h4 style = {style} onClick={this.props.handleMouseDown}>menu</h4>
     );
   }
 }

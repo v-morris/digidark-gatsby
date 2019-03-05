@@ -12,6 +12,7 @@ import Header from "./header"
 import "./layout.css"
 
 const Layout = ({ children }) => (
+  
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -27,6 +28,7 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
+      
       <>
       
         <Header 
