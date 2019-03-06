@@ -18,7 +18,6 @@ class Menu extends Component {
                 <h2><Link to="/">Home</Link></h2>
                 <h2><Link to="/development">Development</Link></h2>
                 <h2><Link to="/photography">Photography</Link></h2>
-                <h2><Link to="/contact">Contact</Link></h2>
             </div>
         );
     }

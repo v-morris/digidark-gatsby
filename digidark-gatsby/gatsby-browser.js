@@ -5,3 +5,9 @@
  */
 
 // You can delete this file if you're not using it
+
+
+exports.onInitialClientRender = () => {
+    require("./src/components/layout.css");
+    require("./src/components/Menu.css");
+  };

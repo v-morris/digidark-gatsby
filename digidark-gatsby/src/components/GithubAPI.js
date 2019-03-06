@@ -38,7 +38,7 @@ class GithubAPI extends React.Component {
         return (
             <div style={{
                 textAlign: `center`,
-                display: `flex`, flexWrap: `wrap`, justifyContent: `space-evenly`
+                display: `flex`, flexWrap: `wrap`, justifyContent: `space-evenly`, paddingBottom:`50px`
             }}>
                 {this.state.repos.map(repo => (
                     <a href={repo.html_url} target="_blank">

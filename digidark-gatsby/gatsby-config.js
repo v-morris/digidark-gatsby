@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `digidark`,
+    title: `DigiDark`,
     menuLinks: [
       {
         name: 'home',
@@ -11,8 +11,8 @@ module.exports = {
         link: '/page-2'
       }
     ],
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Development and Design`,
+    author: `v-morris`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -31,10 +31,17 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#5F4B8B`,
+        theme_color: `#5F4B8B`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/android-chrome-512x512.png`, // This path is relative to the root of the site.
+      },
+    },
+    
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        // Add any options here
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

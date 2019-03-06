@@ -633,6 +633,6 @@ html {
   }
   @media only screen and (max-width: 480px) {
     html {
-      font-size: 85%;
+      font-size: 100%;
     }
   }

@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import ImageAPI from "../components/imageAPI"
+import Image from "../components/image"
 
 
 import Layout from "../components/layout"
@@ -10,8 +10,12 @@ const ThirdPage = () => (
   <Layout>
     <SEO title="Photography" />
     <h3>Photography</h3>
-    <p>Welcome to page 3</p>
-    <ImageAPI/>
+    <p>
+      A small sample of life through my eyes. More to come as I add albums.
+    </p>
+    <div >
+      <Image />
+    </div>
   </Layout>
 )
 

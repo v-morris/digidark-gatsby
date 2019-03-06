@@ -8,7 +8,7 @@ const FourthPage = () => (
     <SEO title="Contact" />
     <h3>Contact</h3>
     <p>
-        If you want to see what I've been up to, check out any of the links below
+       
     </p>
     <Contact/>
   </Layout>
